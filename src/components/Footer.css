@@ -1,0 +1,44 @@
+.footer{
+    margin-top: 5%;
+}
+
+.footer-flex-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 8%;
+    gap: 10%;
+}
+
+
+.footer-menu-flex {
+    display: flex;
+    gap:40px;
+    margin-top: 5%;
+}
+
+.footer-menu-flex li {
+    list-style: none;
+}
+
+.socials-container {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.socials-container span {
+    
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-flex-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socials-container {
+        margin-top: 5%;
+    }
+}
+  

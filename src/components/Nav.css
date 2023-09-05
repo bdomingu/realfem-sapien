@@ -1,0 +1,126 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content;
+  /* padding-bottom: 30px; */
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1%;
+  padding-left: 2%;
+  width: 20%;
+}
+
+.logo h2 {
+  text-transform: uppercase;
+}
+
+
+.hamburger-icon {
+  display: none; 
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.hamburger-icon div {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px auto;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+/* Menu Items Styles */
+.menu-items-container{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content:center;
+
+}
+
+.lets-talk-container {
+  margin-left: auto;
+  padding-right: 5%;
+}
+
+.lets-talk-button {
+  display: inline-block;
+  padding: 2px 30px;
+  background-color: #DE6769;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.menu-items ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-items li {
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+/* Show menu items when the hamburger icon is clicked */
+.menu-items.show {
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive CSS - Show/hide the hamburger icon on smaller screens */
+@media screen and (max-width: 768px) {
+  .hamburger-icon {
+    display: block;
+  }
+
+  .menu-items {
+    display: none;
+  }
+
+  .menu-items.show {
+    display: flex;
+  }
+
+  .menu-items ul {
+    flex-direction: column;
+    margin: auto;
+    gap: 15px;
+  }
+
+  
+  .lets-talk-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-right: 80px;
+  }
+}

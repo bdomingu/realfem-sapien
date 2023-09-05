@@ -1,0 +1,31 @@
+.carousel {
+    padding: 5rem;
+}
+
+.box{
+    background-color: #F5E5D6;
+    height: 250px;
+
+}
+
+.box h3 {
+    text-align: center;
+}
+
+.slick-slide div {
+    margin: 0 1rem;
+}
+
+.slick-prev {
+    color:#DE6769 !important;
+
+}
+
+.slick-next {
+    color:#DE6769 !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    color:#DE6769 !important;
+
+}

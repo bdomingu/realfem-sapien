@@ -1,0 +1,32 @@
+.hero-container{
+    background-color: #F4DAD9;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.hero-content-container {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    gap: 5%;
+}
+
+.feminine-image {
+    max-width: 100%;
+    width: 450px;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .hero-content-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+   
+}

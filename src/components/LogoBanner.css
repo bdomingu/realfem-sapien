@@ -1,0 +1,11 @@
+.logo-banner-container {
+    height: 60px;
+    margin-top: 50px;
+    background-color: #EFE5DB;
+}
+
+.logo-banner-container h2 {
+    text-transform: uppercase;
+    margin-left:100px;
+    padding-top: 10px;
+}
