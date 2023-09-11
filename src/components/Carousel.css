@@ -3,17 +3,16 @@
 }
 
 .box{
-    background-color: #F5E5D6;
-    height: 250px;
-
+    max-width: 100%;
 }
+
 
 .box h3 {
     text-align: center;
 }
 
 .slick-slide div {
-    margin: 0 1rem;
+    margin-left:2%
 }
 
 .slick-prev {
@@ -27,5 +26,27 @@
 
 .slick-prev:before, .slick-next:before {
     color:#DE6769 !important;
-
+  
 }
+
+.slick-dots li.slick-active button:before {
+    color: #DE6769 !important;
+}
+
+.slick-dots li button:before {
+    color: #DE6769 !important;
+    font-size: .8rem !important;
+}
+
+  
+
+
+  
+
+@media screen and (max-width: 768px) {
+    .carousel {
+        padding: 3rem;
+    }
+    
+    
+ }

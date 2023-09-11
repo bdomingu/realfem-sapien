@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   height: fit-content;
-  /* padding-bottom: 30px; */
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .logo {
@@ -12,13 +13,21 @@
   justify-content: center;
   padding-top: 1%;
   padding-left: 2%;
-  width: 20%;
 }
 
 .logo h2 {
   text-transform: uppercase;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.7em;
 }
 
+.logo h4 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2em;
+  margin-top: -15px;
+  
+}
 
 .hamburger-icon {
   display: none; 
@@ -40,7 +49,7 @@
   transition: transform 0.3s, opacity 0.3s;
 }
 
-/* Menu Items Styles */
+
 .menu-items-container{
   flex-grow: 1;
   display: flex;
@@ -55,12 +64,12 @@
 
 .lets-talk-container {
   margin-left: auto;
-  padding-right: 5%;
+  margin-right: 5%;
 }
 
 .lets-talk-button {
   display: inline-block;
-  padding: 2px 30px;
+  padding: 4px 20px;
   background-color: #DE6769;
   color: #fff;
   text-decoration: none;
@@ -69,21 +78,34 @@
   font-size: 16px;
   cursor: pointer;
   text-transform: uppercase;
+  transition: transform 0.3s ease;
 }
+
+.lets-talk-button:hover{
+  transform: scale(1.1);
+}
+
 
 .menu-items ul {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 20px;
+  padding-top: 20px;
 }
 
 .menu-items li {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: .9em;
+  text-transform: uppercase;
   margin-right: 20px;
-  font-weight: 500;
 }
 
-/* Show menu items when the hamburger icon is clicked */
+.menu-items li:hover {
+  text-decoration: underline;
+}
+
 .menu-items.show {
   flex-direction: column;
   align-items: flex-start;
@@ -95,10 +117,12 @@
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive CSS - Show/hide the hamburger icon on smaller screens */
-@media screen and (max-width: 768px) {
+
+
+@media screen and (max-width: 800px) {
   .hamburger-icon {
     display: block;
+    margin-top: 15px;
   }
 
   .menu-items {
@@ -120,7 +144,47 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-right: 80px;
   }
+}
+
+
+@media screen and (max-width: 450px) {
+  .hamburger-icon {
+    display: block;
+    margin-top: 8px;
+  }
+
+  .logo h2 {
+    font-size: 1.1em;
+  }
+
+  .logo h4 {
+    font-size: .9em;
+  }
+
+  .lets-talk-button {
+    display: inline-block;
+    padding: 2px 8px;
+    background-color: #DE6769;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
+  }
+   
+  .lets-talk-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 15px;
+    padding-right: 70px;
+  }
+  
+  
 }

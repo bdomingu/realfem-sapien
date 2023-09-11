@@ -37,8 +37,17 @@
         align-items: center;
     }
 
+    .footer-menu-flex {
+        display: flex;
+        gap:20px;
+        margin-top: 5%;
+    }
+    
     .socials-container {
         margin-top: 5%;
     }
+
+
+   
 }
   

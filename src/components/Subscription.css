@@ -5,30 +5,28 @@
 }
 
 .title-container {
+    text-align:left;
     margin-left: 8%;
 }
 
+
+
 .subscribe-flex {
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     gap:15%;
 }
 
 .subscription-flex-container {
     display: flex;
+   
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.name-input {
-    padding-bottom: 10px;
-}
 
-.name-input input {
-    background-color: #F7EEEF;
-    border: none;
-    height: 35px;
-    width: 300px;
-}
 
 .subscribe-button {
     display: inline-block;

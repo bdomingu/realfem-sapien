@@ -28,10 +28,11 @@ function Nav() {
         </div>
         <div className='lets-talk-container'>
             <a className='lets-talk-button' href=''>Lets Talk</a>
-        </div>
-        <button className='hamburger-icon' onClick={toggleMenu}>
+            <button className='hamburger-icon' onClick={toggleMenu}>
             <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
         </button>
+        </div>
+       
       </nav>
     );
   }

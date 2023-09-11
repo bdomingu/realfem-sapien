@@ -47,19 +47,61 @@ function Carousel () {
 
     <Slider {...settings}>
       <div className="box">
-        <h3>1</h3>
+      
+        <iframe 
+        class="responsive-iframe" 
+        src="https://www.instagram.com/p/Cw3DVVOujVj/embed/"
+        height={250}
+        width={260}
+        >
+        </iframe>
+ 
+
       </div>
       <div className="box">
-        <h3>2</h3>
+        <iframe
+        class="responsive-iframe" 
+        src='https://www.instagram.com/p/Cw0X7HbufLz/embed/'
+        height={250}
+        width={260}
+        >
+        </iframe>
       </div>
       <div className="box">
-        <h3>3</h3>
+        <iframe
+        class="responsive-iframe" 
+        src='https://www.instagram.com/p/CwvgyuOuFIG/embed/'
+        height={250}
+        width={260}
+        >
+        </iframe>      
       </div>
       <div className="box">
-        <h3>4</h3>
+        <iframe
+        class="responsive-iframe" 
+        src='https://www.instagram.com/p/CwsaFJxOc2o/embed/'
+        height={250}
+        width={260}
+        >
+        </iframe>  
       </div>
       <div className="box">
-        <h3>5</h3>
+      <iframe
+        class="responsive-iframe" 
+        src='https://www.instagram.com/p/Cwh3Rj5K6ik/embed/'
+        height={250}
+        width={260}
+        >
+        </iframe>
+      </div>
+      <div className="box">
+        <iframe
+        class="responsive-iframe" 
+        src='https://www.instagram.com/p/CwdXD77uTsY/embed/'
+        height={250}
+        width={260}
+        >
+        </iframe>
       </div>
       </Slider>
     </div>

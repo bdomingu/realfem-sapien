@@ -9,28 +9,15 @@ function Subscription () {
            
             <div className='subscribe-flex'>
             <div className='subscription-flex-container'>
-                <p>Stay updated on my SUBSTACK you can enter your email below!</p>
-                <form>
-                    <div >
-                    <div className='name-input'>
-                        <input
-                        placeholder="Name"
-                        />
-                    </div>
-                    <div className='name-input'>
-                        <input
-                        placeholder="Email"
-                        />
-                    </div>
-                    </div>
-                    <button 
-                    className='subscribe-button'>
-                    Subscribe</button>
-                </form>
+                <p>Stay updated on my SUBSTACK you can subscribe below!</p>
+                <button className='subscribe-button'>
+                    Subscribe
+                </button>
                 </div>
                 <img
                     className='heart-image'
                     src="/images/mailheart.png"
+                    alt='heart-mail'
                 />
             </div>
             <div className='session-container'>
