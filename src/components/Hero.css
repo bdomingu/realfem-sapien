@@ -68,6 +68,11 @@
       font-size: 16px;
       cursor: pointer;
       text-transform: uppercase;
+      transition: transform 0.3s ease;
+  }
+
+  .book-button-container button:hover {
+    transform: scale(1.1);
   }
 
   .arrow-image {
@@ -123,7 +128,7 @@
       align-items: center;
       text-align: center;
       margin-top: 5%;
-      margin-left: 30px;
+      
     }
 
     .arrow-image {

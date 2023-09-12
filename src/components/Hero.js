@@ -1,7 +1,8 @@
 import './Hero.css';
 
-function Hero () {
+function Hero (props) {
   return (
+    <section id='home'>
     <div className='hero-container'>
       <div className='hero-content-container'>
       <div className='hero-image-container'>
@@ -20,16 +21,17 @@ function Hero () {
           <img
           className='arrow-image'
           src='/images/arrow.png'
-
+          alt='arrow'
           />
           <div className='book-button-container'>
-          <button>Book Me</button>
+          <button onClick={props.setCheckout}>Book Me</button>
           </div>
          
         </div>
         
       </div>
     </div>
+    </section>
   )
 }
 

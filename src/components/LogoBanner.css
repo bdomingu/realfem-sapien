@@ -1,4 +1,5 @@
 .logo-banner-container {
+  
     height: 60px;
     margin-top: 50px;
     background-color: #EFE5DB;
@@ -8,4 +9,68 @@
     text-transform: uppercase;
     margin-left:100px;
     padding-top: 10px;
+}
+
+.banner-content-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+   
+}
+
+.banner-socials-container {
+    margin-left: 60px;
+    margin-top: 5px;
+    
+}
+
+.banner-content-container a {
+    padding-left: 40px;
+    color:black;
+    font-size: 2em;
+    
+}
+
+.banner-content-container a:hover {
+    color:#DE6769;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .logo-banner-container h2 {
+        padding-top: 0;
+    }
+
+    .banner-content-container {
+        gap: 0;
+    }
+  
+}
+
+@media screen and (max-width: 768px) {
+    .logo-banner-container h2 {
+        padding-top: 0;
+    }
+
+
+    .banner-content-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .banner-content-container a {
+        padding-left: 20px;
+        color:black;
+        font-size: 1.4em;
+    }
+
+    .banner-socials-container {
+        margin-left: 0;
+        margin-top: -10px;
+        text-align: center;
+    
+    }
 }

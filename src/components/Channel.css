@@ -5,17 +5,20 @@
     margin-left: 8%;
     margin-top: 10%;
     margin-right: 8%;
-  
 }
 
-
-
 .channel p{
+    font-family: 'Noto Sans Sinhala', sans-serif;
+    font-size: 1em;
     padding-right: 15%;
 }
 
 .channel h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3em;
+    font-weight: 600;
     text-align: left;
+    color: #797373;
     font-size: 4.5em;
     padding-top: 10%;
     padding-bottom: 20%;
@@ -34,7 +37,11 @@
     border: none;
     font-size: 16px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
 
+.channel button:hover{
+    transform: scale(1.1);
 }
 
 .popular-videos-container {
@@ -67,6 +74,17 @@
     
 }
 
+.channel-video-container h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+
+
+
 .channel-video-content{
     display: flex;
     gap: 3%;
@@ -83,8 +101,27 @@
 }
 
 .channel-video-text {
+    font-family: 'Noto Sans Sinhala', sans-serif;
+    font-size: .95em;
     text-transform: uppercase;
 }
+
+.play-button-container {
+    display: flex;
+
+}
+
+.play-button {
+    color: #DE6769;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+.play-button:hover {
+    transform: scale(1.5);
+}
+
 
 
 @media screen and (max-width: 1030px) {
@@ -119,6 +156,8 @@
         width: 500px;
         padding-left: 0;
         padding-right: 0;
+        text-align: center;
+        margin-top: 10%;
         
     }
 
@@ -141,6 +180,10 @@
         margin-left: 5%;
         margin-right: 5%;
         padding-bottom:5%;
+    }
+
+    .play-button-container {
+        justify-content: center;
     }
    
  }

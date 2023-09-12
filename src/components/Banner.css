@@ -10,6 +10,7 @@
 }
 
 .banner-content-left h3 {
+    position: relative;
     padding-top: 2%;
     color: #F4D8D7;
     font-family: 'Merriweather', serif;
@@ -34,6 +35,12 @@
     font-size: 16px;
     cursor: pointer;
     font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
+}
+
+.click-here:hover {
+    transform: scale(1.1);
 }
 
 .banner-content-right {
@@ -55,6 +62,12 @@
     height: 110px;
 }
 
+.exclamation {
+    position: absolute;
+    top:-3%;
+    left: 95%;
+    width: 50px;
+}
 
 @media screen and (max-width: 600px) {
     .banner-content {
@@ -70,4 +83,50 @@
         justify-content: center;
     }
     
+    .exclamation {
+        position: absolute;
+        top:-3%;
+        left: 72%;
+        width: 50px;
+    }
+ }
+
+ @media screen and (max-width: 480px) {
+    
+    .exclamation {
+        position: absolute;
+        top:-3%;
+        left: 75%;
+        width: 50px;
+    }
+ }
+
+ @media screen and (max-width: 400px) {
+    
+    .exclamation {
+        position: absolute;
+        top:-3%;
+        left: 78%;
+        width: 50px;
+    }
+ }
+
+ @media screen and (max-width: 360px) {
+    
+    .exclamation {
+        position: absolute;
+        top:-3%;
+        left: 80%;
+        width: 50px;
+    }
+ }
+
+ @media screen and (max-width: 340px) {
+    
+    .exclamation {
+        position: absolute;
+        top:-3%;
+        left: 82%;
+        width: 50px;
+    }
  }

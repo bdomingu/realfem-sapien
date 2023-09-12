@@ -43,12 +43,13 @@ function Carousel () {
 
   return (
     <div className="carousel">
-      <h2>What's new on Instagram</h2>
+      <h2 className='carousel-heading'>What's new on <span className='carousel-heading-cursive'>Instagram</span></h2>
 
     <Slider {...settings}>
       <div className="box">
       
-        <iframe 
+        <iframe
+        title='ig-post-1' 
         class="responsive-iframe" 
         src="https://www.instagram.com/p/Cw3DVVOujVj/embed/"
         height={250}
@@ -60,6 +61,7 @@ function Carousel () {
       </div>
       <div className="box">
         <iframe
+        title='ig-post-2'
         class="responsive-iframe" 
         src='https://www.instagram.com/p/Cw0X7HbufLz/embed/'
         height={250}
@@ -69,6 +71,7 @@ function Carousel () {
       </div>
       <div className="box">
         <iframe
+        title='ig-post-3'
         class="responsive-iframe" 
         src='https://www.instagram.com/p/CwvgyuOuFIG/embed/'
         height={250}
@@ -78,6 +81,7 @@ function Carousel () {
       </div>
       <div className="box">
         <iframe
+        title='ig-post-4'
         class="responsive-iframe" 
         src='https://www.instagram.com/p/CwsaFJxOc2o/embed/'
         height={250}
@@ -87,6 +91,7 @@ function Carousel () {
       </div>
       <div className="box">
       <iframe
+        title='ig-post-5'
         class="responsive-iframe" 
         src='https://www.instagram.com/p/Cwh3Rj5K6ik/embed/'
         height={250}
@@ -96,6 +101,7 @@ function Carousel () {
       </div>
       <div className="box">
         <iframe
+        title='ig-post-6'
         class="responsive-iframe" 
         src='https://www.instagram.com/p/CwdXD77uTsY/embed/'
         height={250}

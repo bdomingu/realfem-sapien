@@ -2,13 +2,14 @@ import './About.css';
 
 function About() {
     return (
+        <section id='about'>
         <div className='about-container'>
             <div className='about-content'>
                 <div className="about-image">
-                <img  src='/images/rocking.jpg'/>
+                <img  src='/images/rocking.jpg' alt='rocking-baby'/>
                 </div>
                 <div className='meet-container'>
-                    <h1 className='about-heading'>Meet</h1>
+                    <h1 className='about-heading'>Meet <span className='about-heading-cursive'>Aly</span></h1> 
                     <div className='about-paragraph-container'>
                     <p>
                         My name is Mrs. Ally Drummond. I am a wife, 
@@ -32,6 +33,7 @@ function About() {
                 
             </div>
         </div>
+        </section>
     )
 }
 

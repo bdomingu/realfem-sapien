@@ -2,9 +2,27 @@
     padding: 5rem;
 }
 
+.carousel-heading {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    color:#797373;
+    text-align: center;
+}
+
+.carousel-heading-cursive{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;  
+    color: #242424;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
 .box{
     max-width: 100%;
+   
 }
+
+
 
 
 .box h3 {
@@ -12,7 +30,7 @@
 }
 
 .slick-slide div {
-    margin-left:2%
+    margin-left:10px;
 }
 
 .slick-prev {
@@ -43,10 +61,26 @@
 
   
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
+
+    .box{
+       align-items: center;
+       text-align: center;
+    }
+    
     .carousel {
         padding: 3rem;
     }
+
+    .slick-slide div {
+        margin-left:0;
+    }
+    
+    .responsive-iframe {
+        margin-left: 0;
+    }
+    
+
     
     
  }
