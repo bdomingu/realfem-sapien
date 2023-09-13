@@ -12,7 +12,7 @@ function About() {
                     <h1 className='about-heading'>Meet <span className='about-heading-cursive'>Aly</span></h1> 
                     <div className='about-paragraph-container'>
                     <p>
-                        My name is Mrs. Ally Drummond. I am a wife, 
+                        My name is Mrs. Aly Drummond. I am a wife, 
                         mother, writer, and social media commentator
                         who finds joy in helping women uncover their own 
                         happiness in their romantic relationships!
@@ -26,7 +26,7 @@ function About() {
                         It has now been my mission to go out of my way to 
                         ensure women receive the education I so desperately
                         needed. If you want to learn more about my journey
-                        click here.
+                        click <a href='https://ladydrummond.substack.com/p/recapturing-western-wifeliness?r=1ga75j&utm_medium=ios&utm_campaign=post'>here</a>.
                      </p>
                      </div>
                 </div>
