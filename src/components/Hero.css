@@ -44,11 +44,10 @@
   
   .hero-image-container {
     max-width: 100%;
-    max-width: 100%;
   }
+
   .feminine-image {
     width: 600px;
- 
   }
 
   .book-button-container {
@@ -84,6 +83,21 @@
     transform: rotate(20deg);
  
   }
+
+  @media screen and (max-width: 3440px) {
+    .hero-text-container {
+      padding-top: 2%;
+    }
+
+    .hero-content-container {
+      display: flex;
+      justify-content: center;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  
+  
+  }
  
   @media screen and (max-width: 1081px) {
 
@@ -99,13 +113,8 @@
 
   @media screen and (max-width: 1010px) {
 
-    .arrow-image {
-      top: 70%;
-      left: 65%;
-      width: 100%;
-      max-width: 120px;
-      transform: rotate(15deg);
- 
+    .hero-text-container {
+      padding-top: 0;
     }
   }
 

@@ -125,6 +125,25 @@
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
+@media screen and (min-width: 2560px) and (max-width: 3440px) {
+  .logo {
+    padding-left: 18%;
+  }
+  
+  .menu-items-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 20%;
+  }
+
+  .lets-talk-container {
+    margin-left: auto;
+    margin-right: 20%;
+  }
+
+}
+
 
 
 @media screen and (max-width: 800px) {

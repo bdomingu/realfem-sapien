@@ -5,8 +5,8 @@
 }
 
 .title-container {
-    text-align:left;
-    margin-left: 8%;
+    text-align:center;
+    padding-bottom: 20%;
 }
 
 .title-container h1 {
@@ -96,6 +96,36 @@
 .talk-button button:hover{
     transform: scale(1.1);
 
+}
+
+@media screen and (min-width:2800px) and (max-width: 3440px) {
+    .subscribe-container {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: -10%;
+    }
+    
+    .session-container {
+        display: flex;
+        justify-content: center;
+        margin-left:15%;
+    }
+    
+}
+
+@media screen and (min-width:2000px) and (max-width: 2799px) {
+    .subscribe-container {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: -5%;
+    }
+
+    .session-container {
+        display: flex;
+        justify-content: center;
+        margin-left:15%;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {

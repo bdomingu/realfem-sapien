@@ -23,14 +23,12 @@
 }
 
 
-
-
 .box h3 {
     text-align: center;
 }
 
 .slick-slide div {
-    margin-left:10px;
+    margin-left:5px;
 }
 
 .slick-prev {
@@ -56,12 +54,35 @@
     font-size: .8rem !important;
 }
 
-  
+@media screen and (min-width:2800px) and (max-width: 3440px) {
+    .carousel {
+        padding: 45rem;
+        margin-top: -400px;
+    }
+
+    .slick-slide div {
+        margin-left:35px;
+    }
+    
+}
 
 
-  
+@media screen and (min-width:2000px) and (max-width: 2799px) {
+    .carousel {
+        padding: 20rem;
+        margin-top: -100px;
+    }
 
-@media screen and (max-width: 769px) {
+    .slick-slide div {
+        margin-left:35px;
+    }
+    
+}
+
+
+
+
+@media screen and  (max-width: 769px) {
 
     .box{
        align-items: center;

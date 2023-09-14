@@ -4,12 +4,13 @@ function Subscription (props) {
     return (
         <section id='substack'>
         <div className='subscribe-container'>
+         
+            <div className='subscribe-flex'>
+         
+            <div className='subscription-flex-container'>
             <div className='title-container'>
                 <h1>Stay Connected!</h1>
             </div>
-           
-            <div className='subscribe-flex'>
-            <div className='subscription-flex-container'>
                 <p>Stay updated on my SUBSTACK you can subscribe below!</p>
                 <a href='https://substack.com/@ladydrummond'>
                 <button className='subscribe-button'>
