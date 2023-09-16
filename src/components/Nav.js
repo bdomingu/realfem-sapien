@@ -16,7 +16,7 @@ function Nav(props) {
       <section id='home'>
       <nav className="navigation">
         <div className='logo'>
-           <HashLink className='logo-title' smooth to='/#home'><h2>Realfemsapien</h2></HashLink>
+           <HashLink className='logo-title' smooth to='/#home'>Realfemsapien</HashLink>
            <h4>Mrs. Aly Drummond</h4>
         </div>
         <div className='menu-items-container'>
@@ -32,7 +32,7 @@ function Nav(props) {
         <div className='lets-talk-container'>
             <button className='lets-talk-button' onClick={props.setCheckout}>Lets Talk</button>
             <button className='hamburger-icon' onClick={toggleMenu}>
-            <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faBars} size='lg'></FontAwesomeIcon>
         </button>
         </div>
        

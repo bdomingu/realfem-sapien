@@ -18,9 +18,8 @@
 .logo-title {
   text-transform: uppercase;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 700;
-  font-size: 1em;
-  color: black;
+  font-size: 2em;
+  color: black !important;
   text-decoration: none;
 }
 
@@ -118,7 +117,7 @@
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
-  top: 50px;
+  top: 75px;
   left: 0;
   width: 100%;
   background-color: #fff;
@@ -146,15 +145,16 @@
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 842px) {
 
+  
   .logo-title {
     font-size: 1.7em;
   }
   
   .hamburger-icon {
     display: block;
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .menu-items {
@@ -176,24 +176,26 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-right: 80px;
   }
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .hamburger-icon {
     display: block;
-    margin-top: 8px;
+    margin-top: 12px;
+    right: 0px;
   }
 
   .logo-title {
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
 
   .logo h4 {
     font-size: .9em;
+    margin-top: -10px;
   }
 
   .lets-talk-button {
@@ -214,9 +216,57 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding-top: 15px;
-    padding-right: 70px;
+    padding-top: 20px;
+    padding-right: 60px;
   }
   
+  .menu-items.show {
+    top: 65px;
+  }
+  
+}
+
+
+@media screen and (max-width: 370px) {
+  .hamburger-icon {
+    display: block;
+    margin-top: 10px;
+    right: 0px;
+  }
+
+  .logo-title {
+    font-size: 1.1em;
+  }
+
+  .logo h4 {
+    font-size: .9em;
+    margin-top: -8px;
+  }
+
+  .lets-talk-button {
+    display: inline-block;
+    padding: 2px 3px;
+    background-color: #DE6769;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
+  }
+   
+  .lets-talk-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 18px;
+    padding-right: 60px;
+  }
+  
+  .menu-items.show {
+    top: 55px;
+  }
   
 }
