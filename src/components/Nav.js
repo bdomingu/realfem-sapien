@@ -32,7 +32,7 @@ function Nav(props) {
         <div className='lets-talk-container'>
             <button className='lets-talk-button' onClick={props.setCheckout}>Lets Talk</button>
             <button className='hamburger-icon' onClick={toggleMenu}>
-            <FontAwesomeIcon icon={faBars} size='lg'></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faBars} size='lg' color='black'></FontAwesomeIcon>
         </button>
         </div>
        
